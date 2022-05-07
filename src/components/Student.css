@@ -8,6 +8,7 @@
 .list-item::after {
     content: "";
     bottom: 0;
+    left: 0;
     width: 100%;
     height: 1px;
     position: absolute;
@@ -207,6 +208,10 @@ input[type="text"]::-webkit-search-results-decoration {
 
 @media screen and (max-width:700px) {
 
+    .list-item {
+        display: block;
+    }
+
     .image-border {
         height: 70px;
         width: 70px;
@@ -230,10 +235,30 @@ input[type="text"]::-webkit-search-results-decoration {
         padding-top: 2em;
         padding-right: 0.5em;
     }
+
+    .fa-minus {
+        padding-top: 2em;
+        padding-right: 0.5em;
+    }
+
+    .text-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
     
     .image-container {
-        padding: 2.5em 1em;
-        width: 20%;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 1.5em 0;
+    }
+
+    .button-container {
+        width: 100%;
+        position: absolute;
+        height: 100%;
+        top: 0;
     }
 
     .tag-input {
