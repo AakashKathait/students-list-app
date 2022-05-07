@@ -56,7 +56,7 @@ class Student extends Component {
                             return <span className='tag' key={index}>{tag}</span>
                         })}</div>
                         <form className="tag-form" onSubmit={this.handleSubmit}>
-                            <input onChange={this.handleChange} value={this.state.tag} type="text" placeholder="Add a tag" className="tag-input"/>
+                            <input required onChange={this.handleChange} value={this.state.tag} type="text" placeholder="Add a tag" className="tag-input"/>
                         </form>
                     </div>
                 </div>
