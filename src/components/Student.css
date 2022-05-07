@@ -232,13 +232,13 @@ input[type="text"]::-webkit-search-results-decoration {
     }
 
     .fa-plus {
-        padding-top: 2em;
-        padding-right: 0.5em;
+        padding-top: 4em;
+        padding-right: 1em;
     }
 
     .fa-minus {
-        padding-top: 2em;
-        padding-right: 0.5em;
+        padding-top: 4em;
+        padding-right: 1em;
     }
 
     .text-container {
@@ -255,10 +255,10 @@ input[type="text"]::-webkit-search-results-decoration {
     }
 
     .button-container {
-        width: 100%;
         position: absolute;
         height: 100%;
         top: 0;
+        right: 0;
     }
 
     .tag-input {
