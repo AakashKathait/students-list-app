@@ -100,7 +100,8 @@ input:focus {
 @media screen and (max-width:600px) {
 
     .list {
-        width: 8    0vw;
+        height: 90vh;
+        width: 80vw;
     }
 
 }
